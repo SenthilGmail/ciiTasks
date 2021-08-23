@@ -27,3 +27,14 @@ Please change the google site key in user_add.php in view folder line 41
 == Kickbox===
 Please change the kickbox key in Controller/User kickboxcheck function in line number 65
 
+
+===Secure REST=====
+auth = basic
+username = admin
+password = 1234
+
+GET - http://localhost:8080/mycii/api/user/1 = Read
+GET - http://localhost:8080/mycii/api/users/ = all user
+POST - http://localhost:8080/mycii/api/user/add
+DELETE - http://localhost:8080/mycii/api/user/delete/6
+
